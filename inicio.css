@@ -1,0 +1,124 @@
+@font-face {
+    font-family: letra;
+    src: url(letra/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+body{
+  background-color: #b1b1b125;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: letra;
+    border: #00000050 2px solid;
+    background-color: #ffffff00;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #000000;
+  }
+  
+  a:visited {
+    color: #000000;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #045361;
+  }
+  
+  a:hover {
+    border-radius: 10px;
+    border-bottom: 2px solid;
+    background: #40424228;
+  }
+  
+  a:active {
+    border-radius: 5px;
+    background: #010046;
+    color: #000000;
+  }
+
+  #a1{
+    font-size: 30px;
+    margin-left: 180px;
+    width: 300px;
+  }
+
+  #a2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 125px;
+    bottom: 2px;
+    margin-left: 130px;
+    border-left: 2px  #00000050  solid;
+    border-right:2px  #00000050  solid ;
+  }
+
+  #a3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 120px;
+    bottom: 2px;
+    border-right:2px  #00000050  solid ;
+  }
+  #a4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 150px;
+    border-right:2px  #00000050  solid ;
+  }
+  #a5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 150px;
+    bottom: 2px;
+    border-right:2px  #00000050  solid ;
+  }
+  #a6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 120px;
+  }
+
+  #section1{
+    width: 400px;
+    height: 500px;
+    font-size: 20px;
+    font-family: letra;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #section1 input{
+    background-color: #ffffff;
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+  }
+
+  #a3{
+    margin-top: 10px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
